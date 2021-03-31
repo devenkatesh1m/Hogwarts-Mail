@@ -1,0 +1,14 @@
+{
+  "name": "hogwarts-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "venkatesh",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.5.0"
+  }
+}

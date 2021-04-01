@@ -39,8 +39,8 @@ function sendMail(name,email){
         to:email,
         subject:'Hogwarts Letter',
         html:'<div style="font-family:\'Brush Script MT\', cursive; font-size: 22px;margin-bottom:20px" >'+
-        '<p>Congratulations '+name+',</p>'+
-        '<p style="text-indent: 60px;">You have been accepted at the <b><u>Hogwarts School of Witch craft and wizardry</u></b>.Please accept to be a part of the greatest magical school ever.</p>'
+        '<p>Dear '+name+',</p>'+
+        '<p style="text-indent: 60px;">We are Pleased to Inform you that you have been accepted at the <b><u>Hogwarts School of Witch craft and wizardry</u></b>.Students will be required to accept the invitation.Click on accept to be a part of the greatest magical school.</p>'
     +'</div>'
     +'<img src=\'https://wallpapercave.com/wp/wp3002556.jpg\'\\>'
     +'<a href="https://devenkatesh1m.github.io/hogwarts-letter.github.io/" style="background-color: #44CC44; color: #FFF; border: none; padding: 15px 20px;  box-shadow: 0 4px 0 0 #2EA62E; margin:20px;text-decoration:none">Accept</a>'+

@@ -50,7 +50,7 @@ function sendMail(name,email){
         service:'gmail',
         auth:{
             user:'no.reply.depv@gmail.com',
-            pass:'HogWarts909'
+            pass:''
         }
     }));
     transporter.sendMail(mailOptions,function(err,info){
